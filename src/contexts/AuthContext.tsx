@@ -53,8 +53,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({children}) => {
         }
     }, []);
 
-    // Login function
-    const login = (credentialResponse: never) => {
+    const login = (credentialResponse: any) => {
         const {credential} = credentialResponse;
         localStorage.setItem('googleToken', credential);
 
