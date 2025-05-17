@@ -1,5 +1,6 @@
 import React, {createContext, type ReactNode, useContext, useEffect, useState} from 'react';
 import {jwtDecode} from 'jwt-decode';
+import type {CredentialResponse} from '@react-oauth/google';
 
 // Define the user type
 interface User {
@@ -13,7 +14,7 @@ interface User {
 interface AuthContextType {
     user: User | null;
     isAuthenticated: boolean;
-    login: (credentialResponse: never) => void;
+    login: (credentialResponse: CredentialResponse) => void;
     logout: () => void;
 }
 
@@ -38,7 +39,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({children}) => {
     const [user, setUser] = useState<User | null>(null);
     const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
 
-    // Check if user is already logged in on component mount
+    // Check if a user is already logged in on the component mount
     useEffect(() => {
         const storedToken = localStorage.getItem('googleToken');
         if (storedToken) {
@@ -53,8 +54,10 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({children}) => {
         }
     }, []);
 
-    const login = (credentialResponse: any) => {
+    const login = (credentialResponse: CredentialResponse) => {
         const {credential} = credentialResponse;
+        if (!credential) throw new Error('No credential found');
+
         localStorage.setItem('googleToken', credential);
 
         try {
