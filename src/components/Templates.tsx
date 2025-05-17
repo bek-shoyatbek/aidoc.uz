@@ -148,12 +148,12 @@ const Templates: React.FC = () => {
                   onError={(e) => {
                     // Use a gradient background as fallback if image fails to load
                     e.currentTarget.style.display = 'none';
-                    e.currentTarget.parentElement.classList.add('template-image-fallback');
+                    e.currentTarget.parentElement?.classList.add('template-image-fallback');
                     // Add the first letter of the template title as a visual element
                     const fallbackText = document.createElement('div');
                     fallbackText.className = 'template-image-fallback-text';
                     fallbackText.textContent = template.title.charAt(0);
-                    e.currentTarget.parentElement.appendChild(fallbackText);
+                    e.currentTarget.parentElement?.appendChild(fallbackText);
                   }}
                 />
               </div>
