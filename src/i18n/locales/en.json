@@ -1,7 +1,11 @@
 {
   "header": {
     "login": "Login",
-    "templates": "Templates"
+    "templates": "Templates",
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
   },
   "hero": {
     "title": "Easily create official documents with AI",
@@ -45,6 +49,82 @@
       "finance": "Finance",
       "real estate": "Real Estate",
       "business": "Business"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We offer a variety of document automation services to help streamline your workflow.",
+    "service1": {
+      "title": "Document Generation",
+      "description": "Automatically generate documents based on your data and templates."
+    },
+    "service2": {
+      "title": "Template Management",
+      "description": "Create and manage document templates for various use cases."
+    },
+    "service3": {
+      "title": "Document Analysis",
+      "description": "Extract and analyze data from your existing documents."
+    },
+    "service4": {
+      "title": "Workflow Automation",
+      "description": "Automate your document workflows from creation to approval."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to simplify document creation and management through innovative automation solutions, helping businesses save time and reduce errors."
+    },
+    "story": {
+      "title": "Our Story",
+      "description": "Founded in 2023, aidoc.uz was created to address the challenges businesses face with document management. We recognized that many organizations spend countless hours on repetitive document tasks that could be automated.",
+      "continued": "Our team of experts in document processing and automation has developed a platform that makes document creation and management simple, efficient, and error-free."
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "We are a dedicated team of professionals with expertise in document automation, artificial intelligence, and user experience design.",
+      "member1": {
+        "name": "Alex Johnson",
+        "role": "CEO & Founder"
+      },
+      "member2": {
+        "name": "Sarah Chen",
+        "role": "CTO"
+      },
+      "member3": {
+        "name": "Michael Rodriguez",
+        "role": "Head of Product"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "info": {
+      "title": "Get in Touch",
+      "description": "We'd love to hear from you. Please fill out the form or contact us using the information below.",
+      "address": {
+        "title": "Address",
+        "value": "123 Document Street, Tashkent, Uzbekistan"
+      },
+      "email": {
+        "title": "Email",
+        "value": "info@aidoc.uz"
+      },
+      "phone": {
+        "title": "Phone",
+        "value": "+998 90 123 4567"
+      }
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "successMessage": "Your message has been sent. We will contact you soon!"
     }
   },
   "footer": {

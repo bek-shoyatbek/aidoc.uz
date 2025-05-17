@@ -1,7 +1,11 @@
 {
   "header": {
     "login": "Login",
-    "templates": "Shablonlar"
+    "templates": "Shablonlar",
+    "home": "Bosh sahifa",
+    "services": "Xizmatlar",
+    "about": "Biz haqimizda",
+    "contact": "Bog'lanish"
   },
   "hero": {
     "title": "AI yordamida rasmiy hujjatlarni osongina yarating",
@@ -45,6 +49,82 @@
       "finance": "Moliya",
       "real estate": "Ko'chmas mulk",
       "business": "Biznes"
+    }
+  },
+  "services": {
+    "title": "Bizning xizmatlarimiz",
+    "description": "Biz ish jarayoningizni osonlashtirish uchun turli xil hujjatlarni avtomatlashtirish xizmatlarini taklif etamiz.",
+    "service1": {
+      "title": "Hujjat yaratish",
+      "description": "Ma'lumotlaringiz va shablonlaringiz asosida avtomatik ravishda hujjatlar yarating."
+    },
+    "service2": {
+      "title": "Shablon boshqaruvi",
+      "description": "Turli xil holatlar uchun hujjat shablonlarini yarating va boshqaring."
+    },
+    "service3": {
+      "title": "Hujjat tahlili",
+      "description": "Mavjud hujjatlaringizdan ma'lumotlarni chiqarib oling va tahlil qiling."
+    },
+    "service4": {
+      "title": "Ish jarayoni avtomatizatsiyasi",
+      "description": "Hujjatlaringizni yaratishdan tasdiqlashgacha bo'lgan ish jarayonlarini avtomatlashtiring."
+    }
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "mission": {
+      "title": "Bizning vazifamiz",
+      "description": "Bizning vazifamiz - innovatsion avtomatlashtirish yechimlari orqali hujjatlarni yaratish va boshqarishni soddalashtirish, biznesga vaqtni tejash va xatolarni kamaytirish."
+    },
+    "story": {
+      "title": "Bizning tarixmiz",
+      "description": "2023 yilda asos solingan aidoc.uz korxonalar hujjatlarni boshqarishda duch keladigan muammolarni hal qilish uchun yaratilgan. Biz ko'p tashkilotlar avtomatlashtirilishi mumkin bo'lgan takroriy hujjat vazifalariga son-sanoqsiz soatlar sarflashini angladik.",
+      "continued": "Hujjatlarni qayta ishlash va avtomatlashtirish sohasidagi ekspertlar jamoamiz hujjatlarni yaratish va boshqarishni oddiy, samarali va xatosiz qiladigan platformani ishlab chiqdi."
+    },
+    "team": {
+      "title": "Bizning jamoa",
+      "description": "Biz hujjatlarni avtomatlashtirish, sun'iy intellekt va foydalanuvchi tajribasi dizayni sohasida tajribaga ega bo'lgan professional jamoamiz.",
+      "member1": {
+        "name": "Aleks Jonson",
+        "role": "Bosh direktor va asoschisi"
+      },
+      "member2": {
+        "name": "Sara Chen",
+        "role": "Texnik direktor"
+      },
+      "member3": {
+        "name": "Mixail Rodriguez",
+        "role": "Mahsulot rahbari"
+      }
+    }
+  },
+  "contact": {
+    "title": "Bog'lanish",
+    "info": {
+      "title": "Biz bilan bog'laning",
+      "description": "Sizdan eshitishdan xursand bo'lamiz. Iltimos, formani to'ldiring yoki quyidagi ma'lumotlardan foydalanib biz bilan bog'laning.",
+      "address": {
+        "title": "Manzil",
+        "value": "123 Hujjat ko'chasi, Toshkent, O'zbekiston"
+      },
+      "email": {
+        "title": "Elektron pochta",
+        "value": "info@aidoc.uz"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+998 90 123 4567"
+      }
+    },
+    "form": {
+      "title": "Bizga xabar yuboring",
+      "name": "Ism",
+      "email": "Elektron pochta",
+      "subject": "Mavzu",
+      "message": "Xabar",
+      "submit": "Xabar yuborish",
+      "successMessage": "Xabaringiz yuborildi. Tez orada siz bilan bog'lanamiz!"
     }
   },
   "footer": {

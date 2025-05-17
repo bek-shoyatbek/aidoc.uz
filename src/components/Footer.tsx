@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-copyright">
-          © {new Date().getFullYear()} docuzai.uz
+          © {new Date().getFullYear()} aidoc.uz
         </div>
         <div className="footer-links">
           <a href="#" className="footer-link">{t('footer.home')}</a>
