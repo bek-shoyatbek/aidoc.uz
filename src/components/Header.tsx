@@ -25,9 +25,6 @@ const Header: React.FC = () => {
         </div>
         <nav className="main-nav">
           <Link to="/" className="nav-link">{t('header.home', 'Home')}</Link>
-          <Link to="/services" className="nav-link">{t('header.services', 'Services')}</Link>
-          <Link to="/about" className="nav-link">{t('header.about', 'About Us')}</Link>
-          <Link to="/contact" className="nav-link">{t('header.contact', 'Contact')}</Link>
           <Link to="/templates" className="nav-link">{t('header.templates', 'Templates')}</Link>
         </nav>
         <div className="language-selector">
