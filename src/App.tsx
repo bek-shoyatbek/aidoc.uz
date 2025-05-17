@@ -7,6 +7,7 @@ import Templates from './components/Templates'
 import Services from './components/Services'
 import AboutUs from './components/AboutUs'
 import Contact from './components/Contact'
+import UserProfile from './components/UserProfile'
 import Footer from './components/Footer'
 import './i18n/i18n' // Import i18n configuration
 import { GoogleOAuthProvider } from '@react-oauth/google'
@@ -38,6 +39,7 @@ function App() {
                 <Route path="/services" element={<Services />} />
                 <Route path="/about" element={<AboutUs />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/profile" element={<UserProfile />} />
               </Routes>
             </main>
             <Footer />

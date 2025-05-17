@@ -133,5 +133,15 @@
     "services": "Xizmatlar",
     "about": "Biz haqimizda",
     "contact": "Bog'lanish"
+  },
+  "userProfile": {
+    "title": "Foydalanuvchi profili",
+    "myDocuments": "Mening hujjatlarim",
+    "savedTemplates": "Saqlangan shablonlar",
+    "noDocuments": "Sizda hali saqlangan hujjatlar yo'q.",
+    "noTemplates": "Sizda hali saqlangan shablonlar yo'q.",
+    "notLoggedIn": "Tizimga kirmagansiz",
+    "pleaseLogin": "Profilingizni ko'rish uchun tizimga kiring",
+    "logout": "Chiqish"
   }
 }

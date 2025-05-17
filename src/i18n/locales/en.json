@@ -133,5 +133,15 @@
     "services": "Services",
     "about": "About Us",
     "contact": "Contact"
+  },
+  "userProfile": {
+    "title": "User Profile",
+    "myDocuments": "My Documents",
+    "savedTemplates": "Saved Templates",
+    "noDocuments": "You have no saved documents yet.",
+    "noTemplates": "You have no saved templates yet.",
+    "notLoggedIn": "Not Logged In",
+    "pleaseLogin": "Please login to view your profile",
+    "logout": "Logout"
   }
 }
