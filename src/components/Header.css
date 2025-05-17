@@ -1,0 +1,75 @@
+.header {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.login-button {
+  background-color: transparent;
+  border: 1px solid #646cff;
+  color: #646cff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #646cff;
+  color: white;
+}
+
+.language-selector {
+  display: flex;
+  gap: 0.5rem;
+  margin-right: 1rem;
+}
+
+.language-button {
+  background-color: transparent;
+  border: 1px solid #e0e0e0;
+  color: #666;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.language-button:hover {
+  background-color: #f0f0f0;
+}
+
+.language-button.active {
+  background-color: #646cff;
+  border-color: #646cff;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0 1rem;
+  }
+
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+}
