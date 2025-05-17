@@ -1,18 +1,21 @@
 import React from 'react';
 import './Hero.css';
+import { useTranslation } from 'react-i18next';
 
 const Hero: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="hero">
       <div className="hero-container">
-        <h1 className="hero-title">AI yordamida rasmiy hujjatlarni osongina yarating</h1>
+        <h1 className="hero-title">{t('hero.title')}</h1>
         <p className="hero-subtitle">
-          Arizalar, shikoyatlar, CVlar va boshqa hujjatlarni uch tilda (O'zbek, Rus, Ingliz) bir necha soniyada yozing
+          {t('hero.subtitle')}
         </p>
         <p className="hero-features">
-          AI bilan hujjatlarni yarating, tahrirlang va yuklab oling
+          {t('hero.features')}
         </p>
-        <button className="cta-button">Boshlash</button>
+        <button className="cta-button">{t('hero.cta')}</button>
       </div>
     </section>
   );

@@ -1,0 +1,56 @@
+{
+  "header": {
+    "login": "Login",
+    "templates": "Templates"
+  },
+  "hero": {
+    "title": "Easily create official documents with AI",
+    "subtitle": "Write applications, complaints, CVs and other documents in three languages (Uzbek, Russian, English) in seconds",
+    "features": "Create, edit and download documents with AI",
+    "cta": "Get Started"
+  },
+  "features": {
+    "title": "How it works",
+    "card1": {
+      "title": "Select document types",
+      "description": "Choose the required document type and use templates in three languages (Uzbek, Russian, English)"
+    },
+    "card2": {
+      "title": "Enter context",
+      "description": "Enter the necessary information for the document or ask AI to create a document"
+    },
+    "card3": {
+      "title": "Edit and download the document",
+      "description": "Edit the document created with AI and download it in the required format"
+    }
+  },
+  "templates": {
+    "title": "Document Templates",
+    "searchPlaceholder": "Search for templates...",
+    "generateButton": "Generate with AI",
+    "useTemplate": "Use Template",
+    "noResults": "No templates found matching your search.",
+    "generateNewDoc": "Generate this document with AI",
+    "generateDocTitle": "Generate New Document",
+    "generateDocPrompt": "Would you like to generate a new document for:",
+    "cancel": "Cancel",
+    "generating": "Generating...",
+    "confirm": "Generate Document",
+    "documentGenerated": "Document has been generated successfully!",
+    "filterByCategory": "Filter by category:",
+    "clearFilter": "Clear filter",
+    "categories": {
+      "hr": "HR",
+      "legal": "Legal",
+      "finance": "Finance",
+      "real estate": "Real Estate",
+      "business": "Business"
+    }
+  },
+  "footer": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  }
+}

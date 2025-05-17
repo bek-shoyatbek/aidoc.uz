@@ -22,6 +22,16 @@
 .hero-subtitle {
   font-size: 1.2rem;
   color: #666;
+  margin-bottom: 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-features {
+  font-size: 1.1rem;
+  color: #646cff;
+  font-weight: 500;
   margin-bottom: 2.5rem;
   max-width: 800px;
   margin-left: auto;
@@ -48,15 +58,19 @@
   .hero {
     padding: 3rem 0;
   }
-  
+
   .hero-title {
     font-size: 2rem;
   }
-  
+
   .hero-subtitle {
     font-size: 1rem;
   }
-  
+
+  .hero-features {
+    font-size: 0.95rem;
+  }
+
   .cta-button {
     padding: 0.7rem 2rem;
     font-size: 1rem;

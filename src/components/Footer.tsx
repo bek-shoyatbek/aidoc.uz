@@ -1,7 +1,10 @@
 import React from 'react';
 import './Footer.css';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -9,10 +12,10 @@ const Footer: React.FC = () => {
           © {new Date().getFullYear()} docuzai.uz
         </div>
         <div className="footer-links">
-          <a href="#" className="footer-link">Bosh sahifa</a>
-          <a href="#" className="footer-link">Xizmatlar</a>
-          <a href="#" className="footer-link">Biz haqimizda</a>
-          <a href="#" className="footer-link">Bog'lanish</a>
+          <a href="#" className="footer-link">{t('footer.home')}</a>
+          <a href="#" className="footer-link">{t('footer.services')}</a>
+          <a href="#" className="footer-link">{t('footer.about')}</a>
+          <a href="#" className="footer-link">{t('footer.contact')}</a>
         </div>
       </div>
     </footer>

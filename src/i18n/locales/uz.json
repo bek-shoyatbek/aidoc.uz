@@ -1,0 +1,56 @@
+{
+  "header": {
+    "login": "Login",
+    "templates": "Shablonlar"
+  },
+  "hero": {
+    "title": "AI yordamida rasmiy hujjatlarni osongina yarating",
+    "subtitle": "Arizalar, shikoyatlar, CVlar va boshqa hujjatlarni uch tilda (O'zbek, Rus, Ingliz) bir necha soniyada yozing",
+    "features": "AI bilan hujjatlarni yarating, tahrirlang va yuklab oling",
+    "cta": "Boshlash"
+  },
+  "features": {
+    "title": "Qanday ishlaydi",
+    "card1": {
+      "title": "Hujjat turlarini tanlang",
+      "description": "Kerakli hujjat turini tanlang va uch tildagi (O'zbek, Rus, Ingliz) shablonlardan foydalaning"
+    },
+    "card2": {
+      "title": "Kontekstni kiriting",
+      "description": "Hujjat uchun kerakli ma'lumotlarni kiriting yoki AI'dan hujjat yaratishni so'rang"
+    },
+    "card3": {
+      "title": "Hujjatni tahrirlang va yuklab oling",
+      "description": "AI yordamida yaratilgan hujjatni tahrirlang va kerakli formatda yuklab oling"
+    }
+  },
+  "templates": {
+    "title": "Hujjat shablonlari",
+    "searchPlaceholder": "Shablonlarni qidirish...",
+    "generateButton": "AI bilan yaratish",
+    "useTemplate": "Shablondan foydalanish",
+    "noResults": "Qidiruv so'rovingizga mos shablonlar topilmadi.",
+    "generateNewDoc": "Bu hujjatni AI bilan yarating",
+    "generateDocTitle": "Yangi hujjat yaratish",
+    "generateDocPrompt": "Quyidagi uchun yangi hujjat yaratmoqchimisiz:",
+    "cancel": "Bekor qilish",
+    "generating": "Yaratilmoqda...",
+    "confirm": "Hujjat yaratish",
+    "documentGenerated": "Hujjat muvaffaqiyatli yaratildi!",
+    "filterByCategory": "Kategoriya bo'yicha filtrlash:",
+    "clearFilter": "Filtrni tozalash",
+    "categories": {
+      "hr": "HR",
+      "legal": "Huquqiy",
+      "finance": "Moliya",
+      "real estate": "Ko'chmas mulk",
+      "business": "Biznes"
+    }
+  },
+  "footer": {
+    "home": "Bosh sahifa",
+    "services": "Xizmatlar",
+    "about": "Biz haqimizda",
+    "contact": "Bog'lanish"
+  }
+}

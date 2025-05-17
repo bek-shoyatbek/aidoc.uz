@@ -1,20 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Header.css';
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
-  const [language, setLanguage] = useState('uz');
+  const { i18n, t } = useTranslation();
+  const [language, setLanguage] = useState(i18n.language || 'uz');
+
+  useEffect(() => {
+    // Update language state when i18n.language changes
+    setLanguage(i18n.language);
+  }, [i18n.language]);
 
   const handleLanguageChange = (lang: string) => {
     setLanguage(lang);
-    // In a real implementation, this would trigger language change throughout the app
+    i18n.changeLanguage(lang);
   };
 
   return (
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h1>docuzai.uz</h1>
+          <h1>aidoc.uz</h1>
         </div>
+        <nav className="main-nav">
+          <Link to="/" className="nav-link">{t('header.home', 'Home')}</Link>
+          <Link to="/templates" className="nav-link">{t('header.templates', 'Templates')}</Link>
+        </nav>
         <div className="language-selector">
           <button 
             className={`language-button ${language === 'uz' ? 'active' : ''}`}
@@ -36,7 +48,7 @@ const Header: React.FC = () => {
           </button>
         </div>
         <div className="nav-buttons">
-          <button className="login-button">Login</button>
+          <button className="login-button">{t('header.login')}</button>
         </div>
       </div>
     </header>
