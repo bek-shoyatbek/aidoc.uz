@@ -1,6 +1,7 @@
 {
   "header": {
     "login": "Войти",
+    "logout": "Выйти",
     "templates": "Шаблоны",
     "home": "Главная",
     "services": "Услуги",

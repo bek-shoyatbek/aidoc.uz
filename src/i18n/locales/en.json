@@ -1,6 +1,7 @@
 {
   "header": {
     "login": "Login",
+    "logout": "Logout",
     "templates": "Templates",
     "home": "Home",
     "services": "Services",

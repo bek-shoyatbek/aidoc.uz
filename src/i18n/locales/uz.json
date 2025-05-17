@@ -1,6 +1,7 @@
 {
   "header": {
     "login": "Login",
+    "logout": "Chiqish",
     "templates": "Shablonlar",
     "home": "Bosh sahifa",
     "services": "Xizmatlar",
